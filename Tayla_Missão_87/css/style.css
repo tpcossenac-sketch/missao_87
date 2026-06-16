@@ -1,0 +1,67 @@
+.texto-importante {
+    color: red;
+    font-weight: bold;
+}   
+
+.botao {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.grande {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #2ecc71;
+}
+
+.pequeno {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #e56509;
+}
+
+.pequeno:hover {
+    background-color: #bb5409c9;
+}
+
+.grande:hover {
+    background-color: #058e1cc9;
+}
+
+.ativo{
+    border: 1px solid #71ff39;
+}
+ 
+#menuPrincipal {
+    background-color: #eae3a7;
+    padding: 10px;
+    
+}
+
+.container {
+    background-color: #e41313;
+}
+
+.centro{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    background-color: #eae3a7;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centro2{
+    display: grid;
+    place-items: center;
+    height: 300px;
+    background-color: #f7e328;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
